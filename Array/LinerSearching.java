@@ -3,7 +3,6 @@ public class LinerSearching {
         for(int i=0; i<  marks.length; i++){
             if(marks[i]==key){
                 return  i;
-                // break;
             }
         }
         return -1;
@@ -16,6 +15,5 @@ public class LinerSearching {
         }else{
             System.out.println("key is found at index : " + IsLinearSearch(marks, key));
         }
-        
     }
 }
